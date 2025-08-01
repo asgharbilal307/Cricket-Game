@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket APP</title>
+    <link rel="stylesheet" href="cricket.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap' rel='stylesheet'>
+</head>
+<body>
+    <h1 class="Main_heading">Bat Ball Stump Game</h1>
+    
+    <div class="game-container">
+        <div class="settings-container">
+            <label class="toggle-label">
+                <input type="checkbox" id="saveScores" checked>
+                <span class="toggle-slider"></span>
+                Save Scores
+            </label>
+        </div>
+        
+        <div class="buttons-container">
+            <button class="Buttons" id="bat" onclick="chooseBatBall('Bat')">Bat</button>
+            <button class="Buttons" id="ball" onclick="chooseBatBall('Ball')">Ball</button>
+            <button class="Buttons" id="stump" onclick="chooseBatBall('Stump')">Stump</button>
+        </div>
+        
+        <button class="Buttons restart-btn" onclick="RestartTheGame()">Restart Game</button>
+        
+        <h2 id="Score_heading">Score is: Win: 0 | Lose: 0 | Draw: 0</h2>
+    </div>
+
+    <script src="cricket.js"></script>
+</body>
+</html>
