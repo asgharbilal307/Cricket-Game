@@ -28,11 +28,7 @@ A modern cricket-themed game built with HTML, CSS, and JavaScript. Play against 
 - **Visual feedback** with color-coded buttons
 - **Settings toggle** to control score saving
 
-## 🚀 Quick Start
 
-1. Open `cricket.html` in your browser
-2. Start playing immediately!
-3. No installation required
 
 ## 🛠️ Technologies
 
